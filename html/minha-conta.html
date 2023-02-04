@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlanTech - Cadastro/Login</title>
+    <link rel="icon" href="../img/icones_logos/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/cadastrar-login.css">
+    <script src="../js/cadastro-login.js" defer></script>
+</head>
+    <nav>
+        <ul id="lista-nav">
+            <a href="index.html"><img id="imagem-input" src="../img/icones_logos/logo.png" alt="icon-plantech"></a>
+            <a href="plantas.html"><li class="hover nav-header">Plantas</li></a>
+            <a href="vasos.html"><li class="hover nav-header">Vasos</li></a>
+            <a href="sementes.html"><li class="hover nav-header">Sementes</li></a>
+            <a href="acessorios.html"><li class="hover nav-header">Ferramentas</li></a>
+        </ul>
+    </nav>
+</header>
+<body>
+    <form class="cadastro-login" action="">
+        <h2>Crie sua Conta na PlanTech</h1>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Digite seu Nome">
+        <p class="invisible" id="texto-ajuda-nome">texto de ajuda</p>
+
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" placeholder="Informe sua Idade">
+        <p class="invisible" id="texto-ajuda-idade">texto de ajuda</p>
+
+        <label for="email">E-mail</label>
+        <input type="text" id="email" placeholder="Digite seu E-mail">
+        <p class="invisible" id="texto-ajuda-email">texto de ajuda</p>
+
+        <label for="confirma-email">Repetir o E-mail</label>
+        <input type="text" id="confirma-email" placeholder="Repetir o seu E-mail">
+        <p class="invisible" id="texto-ajuda-confirma-email">texto de ajuda</p>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="Digite um Senha">
+        <p class="invisible" id="texto-ajuda-senha">texto de ajuda</p>
+        <button>Cadastrar</button>
+    </form>
+    <form class="cadastro-login" action="">
+        <h2>Faça Login</h2>
+        <label for="email-login">E-mail</label>
+        <input type="text" id="email-login" placeholder="Digite seu E-mail">
+        <p class="invisible">texto de ajuda</p>
+    
+        <label for="senha-login">Senha</label>
+        <input type="password" id="senha-login" placeholder="Digite sua Senha">
+        <p class="invisible">texto de ajuda</p>
+
+        <p style="text-align: center;">Esqueceu a Senha?</p>
+        <button>Entrar</button>
+    </form>
+</body>
+</html>

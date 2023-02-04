@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+label{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+body{
+    display: flex;
+    background-color: rgb(246, 250, 248);
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+::placeholder{
+    opacity: 0.7;
+    padding-left: 5px;
+}
+input{
+    display: block;
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.cadastro-login{
+    background-color: #5a8729;
+    color: white;
+    padding: 30px;
+    margin-top: 70px;
+    border-radius: 30px;
+}
+.invisible{
+    display: none;
+}
+button{
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 77px;
+}
+
+/*Estilos DinÃ¢micos*/
+.correto{
+    border: #95c83e  1px solid;
+    background-color: #98FB98;
+}
+.errado{
+    border: #B22222 1px solid;
+    background-color: 	#FA8072;
+}
+.visible{
+    display: block;
+    font-size: 10px;
+    margin-left: 5px;
+}
+nav{
+    list-style: none;
+    margin-left: 20px;
+}
